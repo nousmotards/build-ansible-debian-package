@@ -3,8 +3,9 @@
 # build-ansible-debian-package
 A Dockerfile to run to quickly make an Ansible (latest stable version) Debian package
 
-To build:
+To build, indicate the version (if not, will take devel branch) and launch script:
 ```
+VERSION=v2.0.0.2-1
 ./build.sh
 ```
 Now you'll have the .deb package in your current directory
